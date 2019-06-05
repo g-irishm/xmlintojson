@@ -3,7 +3,6 @@ This js converts xml string into json object
 
 # Instruction
 1. Include/Require the xmlintojson.js file<br/>
-<br/>
 ```
 var converter = require('./xmlintojson.js');
 ```
