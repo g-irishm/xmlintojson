@@ -179,17 +179,23 @@ function findAttributes(xml, currentTag) {
         var point = input.indexOf(' ')+1;
         var key = '';
 
+        if(input.indexOf("=") == -1) {
+            break;
+        }
+
         // find key
-        while(input[point] != '=') {
+        while(input[point] != '=' && input[point] != '?' && input[point] != '/' && input[point] != '>') {
             key += input[point];
             point++;
         }
 
         var point = input.indexOf("=")+1;
         var value = '';
+        var openingTag = input[point];
+        point++;
 
         // find key
-        while(input[point] != ' ' && input[point] != '?' && input[point] != '/' && input[point] != '>') {
+        while(input[point] != openingTag) {
             value += input[point];
             point++;
         }
