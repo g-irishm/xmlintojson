@@ -4,36 +4,35 @@
     "description": "This package converts xml string into json and returns the json object as output.",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/g-irishm/xmlintojson.git"
+        "type": "git",
+        "url": "git+https://github.com/g-irishm/xmlintojson.git"
     },
     "keywords": [
-      "XmlIntoJSON",
-      "Xmlintojs",
-      "xmlintojson",
-      "xml",
-      "to",
-      "js",
-      "xml",
-      "to",
-      "json",
-      "xmltojson",
-      "xmltojs",
-      "xml",
-      "into",
-      "json",
-      "xml",
-      "into",
-      "js"
+        "XmlIntoJSON",
+        "Xmlintojs",
+        "xmlintojson",
+        "xml",
+        "to",
+        "js",
+        "xml",
+        "to",
+        "json",
+        "xmltojson",
+        "xmltojs",
+        "xml",
+        "into",
+        "json",
+        "xml",
+        "into",
+        "js"
     ],
     "author": "Girish Mehta",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/g-irishm/xmlintojson/issues"
+        "url": "https://github.com/g-irishm/xmlintojson/issues"
     },
     "homepage": "https://github.com/g-irishm/xmlintojson#readme"
-  }
-  
+}
