@@ -1,6 +1,6 @@
 {
     "name": "xmlintojson",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "This package converts xml string into json and returns the json object as output.",
     "main": "xmlintojson.js",
     "scripts": {
