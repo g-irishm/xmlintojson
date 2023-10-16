@@ -10,9 +10,7 @@ function execute(xml) {
                 _cdata: xml
             };
         } else {
-            return {
-                _text: xml
-            };
+            return xml;
         }
     }
 
